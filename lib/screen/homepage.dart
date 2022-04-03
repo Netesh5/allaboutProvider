@@ -12,6 +12,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.deepPurpleAccent,
         title: const Text("Provider"),
         centerTitle: true,
       ),
@@ -21,7 +22,7 @@ class _HomepageState extends State<Homepage> {
         child: Container(
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextField(
@@ -30,7 +31,7 @@ class _HomepageState extends State<Homepage> {
                     border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(8))),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               TextField(
