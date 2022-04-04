@@ -15,7 +15,7 @@ class mainpage extends StatefulWidget {
 class _mainpageState extends State<mainpage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Homepage(),
     );
