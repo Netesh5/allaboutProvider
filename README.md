@@ -1,4 +1,4 @@
-# provider_app
+# Yoga app using provider
 
 A new Flutter project.
 
